@@ -6,7 +6,6 @@ Testing harness for VT's CS-3304 (Comparative Languages) Homework 2 "Semantics" 
 2. Place the following files in the `src` directory
     - `HW2eval.java`
     - `HW2eval.tokens`
-    - `HW2evalLexer.interp`
     - `HW2evalLexer.java`
     - `HW2evalLexer.tokens`
     - `HW2evalParser.java`
