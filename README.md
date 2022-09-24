@@ -4,9 +4,9 @@ Testing harness for VT's CS-3304 (Comparative Languages) Homework 2 "Semantics" 
 ## Usage
 1. Create the `src` in `CS3304HW2tester`
 2. Place the following files in the `src` directory
-    - `HW2eval.java`
-    - `HW2evalLexer.java`
-    - `HW2evalParser.java`
+    - `HW3.java`
+    - `HW3Lexer.java`
+    - `HW3Parser.java`
 3. Compile using the following
     ```bash
     > $ compile.sh
