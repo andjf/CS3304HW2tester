@@ -1,12 +1,8 @@
-var a;
-a = true;
-var b;
-b = false;
+var a = true;
+var b = false;
 
-var t;
-t = TRUE;
-var f;
-f = FALSE;
+var t = TRUE;
+var f = FALSE;
 
 false && true;
 false || true;
@@ -14,10 +10,8 @@ false || true;
 a || b;
 a && b;
 
-var c;
-c = a && !b;
-var d;
-d = a && !(b);
+var c = a && !b;
+var d = a && !(b);
 
 (c && !fAlSe);
 (d && !FaLsE);
@@ -54,15 +48,11 @@ false && true || false;
 false || false;
 false;
 
-var deMorgansOne;
-deMorgansOne = !(t && f);
+var deMorgansOne = !(t && f);
 deMorgansOne;
-var deMorgansTwo;
-deMorgansTwo = !t || !f;
+var deMorgansTwo = !t || !f;
 deMorgansTwo;
-var deMorgansThree;
-deMorgansThree = false || true;
+var deMorgansThree = false || true;
 deMorgansThree;
-var deMorgansFour;
-deMorgansFour = true;
+var deMorgansFour = true;
 deMorgansFour;

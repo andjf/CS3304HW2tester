@@ -1,26 +1,18 @@
 
-var a;
-a = true;
-var b;
-b = false;
+var a = true;
+var b = false;
 
 {
-    var a;
-    a = false;
-    var b;
-    b = true;
+    var a = false;
+    var b = true;
 
     {
-        var a;
-        a = true;
-        var b;
-        b = false;
+        var a = true;
+        var b = false;
         
         {
-            var and;
-            and = a && b; 
-            var or;
-            or = a || b;
+            var and = a && b; 
+            var or = a || b;
 
             a = false;
             b = true;

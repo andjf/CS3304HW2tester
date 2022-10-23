@@ -1,0 +1,17 @@
+var a, b, c, x, y, z;
+
+a;
+b;
+c;
+x;
+y;
+z;
+
+a = 1;
+b = true;
+c = 2;
+x = false;
+y = 3;
+z = b || x;
+
+(y > c && c > a) && (b && !x && z);

@@ -1,0 +1,18 @@
+
+var d = false, e = true, f;
+d && e;
+d || e;
+f = !d;
+
+var g;
+if(f) {
+    g = 10;
+}
+
+if(g == 10) f = false;
+
+if(f) g = -5;
+else g = 5;
+
+f;
+g;

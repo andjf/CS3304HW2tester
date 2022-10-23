@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+failedTests=0
 for inFile in tests/*.in; do
 
     base=`echo "$inFile" | cut -f 1 -d '.'`
@@ -19,6 +20,7 @@ for inFile in tests/*.in; do
         # Check if there is any diff in the files
         if [ $(cat ./diff.txt | wc --bytes) -gt 0 ]; then
             # If there is a diff, print the result of the diff
+            ((failedTests+=1))
             echo "FAILED"
             echo "Output differs... diff follows:"
             cat ./diff.txt
@@ -35,4 +37,10 @@ for inFile in tests/*.in; do
     fi
 done
 
+echo ""
+if [[ failedTests -eq 0 ]]; then
+    echo "Passed ALL tests!"
+else
+    echo "Did not pass all tests ($failedTests failed). See above for details"
+fi
 echo ""
