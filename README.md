@@ -1,5 +1,5 @@
 # CS3304HW2tester
-Testing harness for VT's CS-3304 (Comparative Languages) Homework 2 "Semantics" ANTLER grammar (ANTLR Problems part 2)
+Testing harness for VT's CS-3304 (Comparative Languages) Project 1 [`ANTLR`](https://www.antlr.org/) + `Java` implimentation
 
 ## Usage
 1. Create the `src` in `CS3304HW2tester`
