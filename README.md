@@ -24,4 +24,4 @@ Testing harness for VT's CS-3304 (Comparative Languages) Project 1 [`ANTLR`](htt
       # To read from a file
       > $ run.sh test_file.in
       ```
-These tests are not exaustive and do not test for behavior when runtime errors occur.
+These tests are not exhaustive and do not test for behavior when runtime errors occur.
