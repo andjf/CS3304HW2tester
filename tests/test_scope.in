@@ -1,0 +1,33 @@
+
+var a = true;
+var b = false;
+
+{
+    var a = false;
+    var b = true;
+
+    {
+        var a = true;
+        var b = false;
+        
+        {
+            var and = a && b; 
+            var or = a || b;
+
+            a = false;
+            b = true;
+
+            and;
+            or;
+        }
+
+        a;
+        b;
+    }
+
+    a;
+    b;
+}
+
+a;
+b;

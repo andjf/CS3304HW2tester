@@ -1,12 +1,9 @@
 # CS3304HW2tester
-Testing harness for VT's CS-3304 (Comparative Languages) Homework 2 "Semantics" ANTLER grammar (ANTLR Problems part 2)
+Testing harness for VT's CS-3304 (Comparative Languages) Project 1 [`ANTLR`](https://www.antlr.org/) + `Java` implimentation
 
 ## Usage
 1. Create the `src` in `CS3304HW2tester`
-2. Place the following files in the `src` directory
-    - `HW2eval.java`
-    - `HW2evalLexer.java`
-    - `HW2evalParser.java`
+2. Place your `*.java` files in the `src` directory
 3. Compile using the following
     ```bash
     > $ compile.sh
@@ -18,12 +15,12 @@ Testing harness for VT's CS-3304 (Comparative Languages) Homework 2 "Semantics" 
         ```
     - Alternatively, you can use the [`run.sh`](https://github.com/andjf/CS3304HW2tester/tree/main/run.sh) script manually:
       ```bash
-      # To enter from the terminal
+      # To take text from stdin
       > $ run.sh
       ```
       or
       
       ```bash
       # To read from a file
-      > $ run.sh code.in
+      > $ run.sh test_file.in
       ```
