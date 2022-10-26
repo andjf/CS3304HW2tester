@@ -2,7 +2,7 @@
 Testing harness for VT's CS-3304 (Comparative Languages) Project 1 [`ANTLR`](https://www.antlr.org/) + `Java` implimentation
 
 ## Usage
-1. Create the `src` in `CS3304HW2tester`
+1. Create the `src` in `CS3304Project1Tester`
 2. Place your `*.java` files in the `src` directory
 3. Compile using the following
     ```bash
